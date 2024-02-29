@@ -1,0 +1,290 @@
+repo_name: PopBot/isomorphic-webcrypto
+report_id: 8a7eb6a24f9555f869dabaa593101351
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:48:27+00:00'
+requested_by: dependabot[bot]
+provider: github
+branch: main
+detected_tools_count: 20
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2021-02-27 04:51:49.000000000 Z
+- name: React Native
+  description: A framework for building native apps with React
+  website_url: http://facebook.github.io/
+  version: 0.61.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/2699/KoK6gHzp.jpg
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2021-02-27 04:51:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 3.4.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2019-09-05 17:28:09.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 25.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: kevlened
+  last_updated_on: 2017-12-09 05:56:57.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: kevlened
+  last_updated_on: 2018-10-04 18:59:56.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.42.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: kevlened
+  last_updated_on: 2017-12-09 05:56:57.000000000 Z
+- name: Bluebird
+  description: A full featured promise library with unmatched performance
+  website_url: https://github.com/petkaantonov/bluebird/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/11991/bb.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: kevlened
+  last_updated_on: 2018-07-19 17:52:49.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: kevlened
+  last_updated_on: 2018-07-19 17:52:49.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: kevlened
+  last_updated_on: 2017-12-09 05:56:57.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in Ajv
+    cve_id: CVE-2020-15366
+    cve_url: https://github.com/advisories/GHSA-v88g-cgmw-v5xw
+    detected_date: Feb 11
+    severity: moderate
+    first_patched: 6.12.3
+- name: jasmine-core
+  description: Official packaging of Jasmine's core files for use by Node.js projects
+  package_url: https://www.npmjs.com/jasmine-core
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15905/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: kevlened
+  last_updated_on: 2019-09-09 16:45:23.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: karma-safari-launcher
+  description: A Karma plugin. Launcher for Safari
+  package_url: https://www.npmjs.com/karma-safari-launcher
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16426/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2020-03-20 16:54:31.000000000 Z
+- name: react-native
+  description: A framework for building native apps using React
+  package_url: https://www.npmjs.com/react-native
+  version: 0.61.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16064/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/PopBot/isomorphic-webcrypto/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Len Boyette
+  last_updated_on: 2021-02-27 04:51:49.000000000 Z
+  vulnerabilities:
+  - name: Regular expression denial of service in react-native
+    cve_id: CVE-2020-1920
+    cve_url: https://github.com/advisories/GHSA-7f53-fmmv-mfjv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.62.3
